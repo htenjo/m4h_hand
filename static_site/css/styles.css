@@ -1,0 +1,120 @@
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+html, body {
+	font-size: 16px;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	width: 100%;
+	color: #ccc;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	display: flex;
+	align-items: center;
+	height: 50px;
+}
+.header > i {
+	font-size: 2em;
+}
+.header span {
+	font-size: 1.5em;
+	padding-left: 10px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0px;
+	background-color: #000;
+	width: 100%;
+	color: #ccc;
+	font-size: 2.2em;
+}
+
+
+.footer .home-icon, 
+.footer .location-icon,
+.footer .search-icon,
+.footer .calendar-icon {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.footer .home-icon:hover, 
+.footer .location-icon:hover,
+.footer .search-icon:hover,
+.footer .calendar-icon:hover {
+	background-color: blue;
+}
+
+.home-container {
+	background-image: url('../img/home.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	background-color: #dedfe0;
+
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/*
+.home-social {
+	font-size: 2.5em;
+	background-color: #dedfe0;
+}
+*/
+
+.sidenav {
+    height: 90%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    left: 0;
+    background-color: #000;
+    overflow-x: hidden;
+    transition: 0.8s;
+    padding-top: 50px;
+    box-shadow: 10px 5px 20px grey;
+}
+
+.sidenav hr {
+	margin: 0px 10px 0px 20px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 30px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    width: 200px;	
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 36px;
+    width: 50px;
+}
+.sidenav .i {
+	width: 10px;
+}
