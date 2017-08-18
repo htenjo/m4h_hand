@@ -1,0 +1,61 @@
+[
+	{
+		"name": "ASOCIMANO",
+		"startDate": "2017-08-23",
+		"endDate": "2017-08-26",
+
+		"????places":[
+			{
+				"name":"Salón: Sala de Juntas"
+			}
+		],
+
+		"activities" : [
+			{
+				"name":"Reunión Junta Directiva - Board meeting",
+				"description":"",
+				"startTime": "2017-08-23T12:00",
+				"endTime":"2017-08-23T14:00",
+				"location":"Salón: Sala de Juntas",
+				"responsibles": ["Junta Directiva - Board of Directors"]
+			},
+
+			{
+				"name":"Reunión Gremial - Sintrauma",
+				"description":"Union Meeting",
+				"startTime": "2017-08-23T14:00",
+				"endTime":"2017-08-23T16:00",
+				"location":"Salón: Grill 1\"",
+				"responsibles": ["Dr. Julián Escobar"]
+			},
+
+			{
+				"name":"La tarde del Residente",
+				"description":"Un repaso en anatomía y biomecánica del carpo.",
+				"startTime": "2017-08-23T18:00",
+				"endTime":"2017-08-23T19:00",
+				"location":"Salón: Fundadores",
+				"responsibles": ["Dr. Marc García Elias", "Dr. Douglas Campbell"]
+			}
+		]
+	},
+	{
+		"name": "ASCOTEMA",
+		"startDate": "2017-08-23",
+		"endDate": "2017-08-26",
+		"places":[
+			{
+				"name":"Salón: Sala de Juntas"
+			}
+		],
+		"activities" : [
+			{
+				"name":"Reunión Junta Directiva - Board meeting",
+				"startTime": "2017-08-23T12:00",
+				"endTime":"2017-08-23T14:00",
+				"location":"Salón: Sala de Juntas",
+				"responsible": "Junta Directiva - Board of Directors"
+			}
+		]
+	}
+]

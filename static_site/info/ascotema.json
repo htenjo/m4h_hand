@@ -1,0 +1,56 @@
+[
+
+	{
+		"name": "ASCOTEMA",
+		"startDate": "2017-08-23",
+		"endDate": "2017-08-26",
+		"places":[
+			{
+				"name":"Salón: Sala de Juntas"
+			}
+		],
+		"activities" : [
+			{
+				"name":"Talleres Precongreso",
+				"startTime": "2017-08-23T14:00",
+				"endTime":"2017-08-23T18:00",
+				"location":"Centro Médico Carlos Ardila Lulle",
+				"address":"Cra 24 No 154-106 El Bosque",
+				"city":"FloridaBlanca - Santander",
+				"responsible": [],
+				"indexed":true,
+
+				"activityItems":[
+					{
+						"name":"1. Evaluación de la mano"
+					},
+					{
+						"name":"2. Evaluación del Cuadrante Superior desde las cadenas musculares"
+					}
+				]
+			}
+		]
+	}
+]
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

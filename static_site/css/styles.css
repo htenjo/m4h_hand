@@ -6,12 +6,13 @@
 
 html, body {
 	font-size: 16px;
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7f7;
 }
 
 
-/*===============  header start ============*/
+/*===============  header begin ============*/
 .header {
 	position: fixed;
 	top: 0;
@@ -36,7 +37,7 @@ html, body {
 /*===============  header end ============*/
 
 
-/*===============  footer start ============*/
+/*===============  footer begin ============*/
 .footer {
 	position: fixed;
 	bottom: 0px;
@@ -63,12 +64,12 @@ html, body {
 }
 /*===============  footer end ============*/
 
-/*===============  sidenav start ============*/
+/*===============  sidenav begin ============*/
 .sidenav {
     height: 90%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 100;
     top: 50px;
     left: 0;
     background-color: #000;
@@ -116,11 +117,85 @@ html, body {
 }
 /*===============  sidenav end ============*/
 
-
 .home-container {
-	background-color: #dedfe0;
 	height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
+
+/*===============  search-box begin ============*/
+.search-box {
+	width: 85%;
+	margin: 70px auto 10px;
+}
+/*===============  search.box end ============*/
+
+
+/*===============  schedule begin ============*/
+.option-filters {
+	top: 50px;
+	position: fixed;
+	width: 100%;
+}
+
+.option {
+	border-right: 1px solid #fff;
+	height: 70px;
+	color: #fff;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.option-event {
+	width: 50%;
+	height: 50px;
+	border-bottom: 1px solid #fff;
+	background-color: green;
+}
+
+.option-day {
+	background-color: #2f5072;
+	width: 25%;
+	font-size: 1em;
+}
+
+.act-list {
+	margin-top: 173px;
+	margin-bottom: 60px;
+}
+
+.act-time-range {
+	background-color: #b7c1cc;
+	font-size: 0.8em;
+	font-weight: bold;
+	padding: 5px 10px 5px 20px;
+	clear: left;
+}
+.act-detail {
+	padding-left: 20px;
+	font-size: 0.9em;
+	border-bottom: 2px solid #ccc;
+	border-left: 10px solid #ccc;
+	border-right: 5px solid #ccc;
+}
+.act-detail-header {
+	font-size: 0.8em;
+	padding: 5px 0px 0px 0px;
+	color: blue;
+	font-style: italic;
+}
+.act-detail-desc {
+	font-size: 0.9em;
+	font-weight: 500;
+	padding: 0px 20px 0px 0px;
+	
+}
+.act-detail-footer {
+	font-size: 0.8em;
+	text-align: right;
+	padding: 5px 20px 5px 5px;
+}
+/*===============  schedule end ============*/

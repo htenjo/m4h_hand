@@ -1,0 +1,2 @@
+- Div con multiples elementos q hagan scroll
+- Qué es el espacio en blanco entre divs que no se quita con margin0 padd0 pero si con float left
