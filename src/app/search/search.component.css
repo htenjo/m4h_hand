@@ -1,0 +1,9 @@
+/*===============  search-box begin ============*/
+.search-box {
+	width: 85%;
+	margin: 20px auto 10px;
+}
+.search-box .form-control {
+	font-size: 16px;
+}
+/*===============  search.box end ============*/

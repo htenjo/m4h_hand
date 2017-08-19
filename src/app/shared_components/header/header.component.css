@@ -1,0 +1,79 @@
+/*===============  header begin ============*/
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	width: 100%;
+	color: #ccc;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	display: flex;
+	align-items: center;
+	height: 50px;
+	z-index: 10;
+}
+.header > i {
+	font-size: 2em;
+}
+.header span {
+	font-size: 1.5em;
+	padding-left: 10px;
+}
+/*===============  header end ============*/
+
+
+
+/*===============  sidenav begin ============*/
+.sidenav {
+  height: 90%;
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  top: 50px;
+  left: 0;
+  background-color: #000;
+  overflow-x: hidden;
+  transition: 0.8s;
+  padding-top: 50px;
+  box-shadow: 10px 5px 20px grey;
+}
+
+.sidenav hr {
+	margin: 0px 10px 0px 20px;
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 30px;
+  text-decoration: none;
+  font-weight: 300;
+  color: #fff;
+  display: flex;
+  transition: 0.3s;
+  width: 250px;
+  font-size: 1em;
+	align-items: center;
+}
+
+.sidenav a > span {
+	font-size: 1em;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 36px;
+  width: 50px;
+}
+.sidenav_icon {
+	width: 30px;
+	font-size: 2em;
+	display: inline-block;
+}
+/*===============  sidenav end ============*/

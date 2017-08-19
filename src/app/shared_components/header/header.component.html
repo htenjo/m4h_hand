@@ -1,0 +1,39 @@
+<div class="header">
+  <i class="fa fa-bars" aria-hidden="true" (click)="openMenu()"></i>
+  <span>Menu</span>
+
+  <div id="mySidenav" class="sidenav">
+    <a routerLink="/home" (click)="closeMenu()">
+      <div class="sidenav_icon">
+        <i class="fa fa-home" aria-hidden="true"></i>
+      </div>
+      <span>Inicio</span> 
+    </a><hr/>
+    <a routerLink="/schedule" (click)="closeMenu()">
+      <div class="sidenav_icon">
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+      </div>
+      <span>Programación</span> 
+    </a><hr/>
+    <a routerLink="/location" (click)="closeMenu()">
+      <div class="sidenav_icon">
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+      </div>
+      <span>Ubicaciones</span> 
+    </a><hr/>
+    <a routerLink="/search" (click)="closeMenu()">
+      <div class="sidenav_icon" (click)="closeMenu()">
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </div>
+      <span>Busqueda</span> 
+    </a><hr/>
+    <a routerLink="" (click)="closeMenu()">
+      <div class="sidenav_icon" (click)="closeMenu()">
+        <i class="fa fa-home" aria-hidden="true"></i>
+      </div>
+      <span>Créditos</span> 
+    </a><hr/>
+
+    <a href="javascript:void(0)" class="closebtn" (click)="closeMenu()">&times;</a>
+  </div>
+</div>
