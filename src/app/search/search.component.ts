@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+
+import * as moment from 'moment';
+
 import { EventService } from '../shared_services/event.service';
 import { Event, Activity, Location, ActivityItem } from '../shared_components/model';
 
@@ -90,7 +93,20 @@ export class SearchComponent implements OnInit {
   /**
    * 
    */
-  getDate(dateString:string) : number {
-    return Date.parse(dateString);
+  getFormatedDate(dateString:string) : string {
+    let defaultTimeZone:string = '-05:00';
+    let defaultFormat:string = "YYYY-MM-DDTHH:mm"
+    let momentDate = moment.parseZone(dateString + defaultTimeZone);
+    return momentDate.format("YY-MM-DD");
+  }
+
+  /**
+   * 
+   */
+  getFormatedHour(dateString:string) : string {
+    let defaultTimeZone:string = '-05:00';
+    let defaultFormat:string = "YYYY-MM-DDTHH:mm"
+    let momentDate = moment.parseZone(dateString + defaultTimeZone);
+    return momentDate.format("HH:mm");
   }
 }

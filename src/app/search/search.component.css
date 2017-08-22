@@ -52,13 +52,13 @@
 }
 .act-detail-footer .item-time {
 	margin: 0px;
-	width: 30%;
+	width: 40%;
 	text-align: left;
 	display: inline-block;
 }
 .act-detail-footer .item-location {
 	margin: 0px;
-	width: 65%;
+	width: 55%;
 	text-align: right;
 	display: inline-block;
 }

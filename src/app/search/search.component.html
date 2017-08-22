@@ -21,7 +21,7 @@
     <section class="act-detail-footer">
       <p class="item-time">
         <i class="fa fa-clock-o" aria-hidden="true"></i>
-        {{getDate(activity.startTime) | date:'HH:mm'}} - {{getDate(activity.endTime) | date:'HH:mm'}}
+        {{getFormatedDate(activity.startTime)}} {{getFormatedHour(activity.startTime)}} - {{getFormatedHour(activity.endTime)}}
       </p>
       <p class="item-location">{{getLocationById(activity.location)}} <i class="fa fa-map-marker" aria-hidden="true"></i></p>
     </section>
@@ -42,7 +42,7 @@
     <section class="act-detail-footer">
       <p class="item-time">
         <i class="fa fa-clock-o" aria-hidden="true"></i>
-        {{getDate(item.startTime) | date:'HH:mm'}} - {{getDate(item.endTime) | date:'HH:mm'}}
+        {{getFormatedDate(item.startTime)}} {{getFormatedHour(item.startTime)}} - {{getFormatedHour(item.endTime)}}
       </p>
       <p class="item-location"> 
          {{getLocationById(item.location)}}
