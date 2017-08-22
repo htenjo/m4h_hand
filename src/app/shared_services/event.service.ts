@@ -2,25 +2,18 @@ import { Injectable } from '@angular/core';
 import {Http} from '@angular/http';
 import { Activity, ActivityItem, Event, Location } from '../shared_components/model';
 
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/toPromise';
+import {Observable} from 'rxjs/Rx';
+
 @Injectable()
 export class EventService {
-  private events:Event[];
-
   constructor(private http:Http) {
-    this.http
+  }
+
+  listEvents() : Observable<Event[]> {
+    return this.http
       .get('/assets/data/events.json')
-      .subscribe(res => {
-        this.events = res.json();
-      });
+      .map(res => <Event[]>res.json());
   }
-
-  getEventsByTime() {
-    let eventyByTime : Map<String, Event[]> = new Map();
-
-    for (let event in this.events) {
-
-    }
-  }
-
-  
 }

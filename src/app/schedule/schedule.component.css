@@ -3,12 +3,13 @@
 	top: 50px;
 	position: fixed;
 	width: 100%;
+	font-size: 0.8em;
 }
 
 .option {
-	border-right: 1px solid #fff;
-	height: 70px;
-	color: #fff;
+	border-right: 1px solid #ccc;
+	height: 50px;
+	color: #f2f2f2;
 	float: left;
 	display: flex;
 	justify-content: center;
@@ -19,17 +20,26 @@
 	width: 50%;
 	height: 50px;
 	border-bottom: 1px solid #fff;
-	background-color: green;
+	background-color: #2d3456;
+}
+
+.option-event.optionSelected {
+	background-color: #565b75;
 }
 
 .option-day {
-	background-color: #2f5072;
+	background-color: #2d3456;
 	width: 25%;
 	font-size: 1em;
 }
 
+
+.option-day.optionSelected {
+	background-color: #565b75;
+}
+
 .act-list {
-	margin-top: 123px;
+	margin-top: 103px;
 	margin-bottom: 60px;
 }
 
@@ -54,14 +64,86 @@
 	font-style: italic;
 }
 .act-detail-desc {
-	font-size: 0.9em;
+	font-size: 0.8em;
 	font-weight: 500;
 	padding: 0px 20px 0px 0px;
-	
 }
+.act-detail-desc p {
+	margin: 0;
+	padding: 0;
+}
+
+.act-detail-desc .act-detail-mod-title {
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+.act-detail-desc .act-detail-desc-text {
+	margin: 5px 0px 5px 0px;
+}
+
 .act-detail-footer {
 	font-size: 0.8em;
 	text-align: right;
 	padding: 5px 20px 5px 5px;
 }
+.act-detail-footer i {
+	font-size: 1.3em;
+}
 /*===============  schedule end ============*/
+
+.act-item-list {
+	margin-top: 103px;
+	margin-bottom: 60px;
+}
+.act-item-list .act-item-footer {
+	font-size: 0.8em;
+	text-align: left;
+	padding-top: 15px;
+}
+.act-item-list .act-item-footer i{
+	font-size: 1.3em;
+}
+.act-item-list .act-detail {
+	padding-left: 15px;
+	font-size: 0.9em;
+	border: 2px solid #ccc;
+}
+
+.act-item-detail {
+	font-size: 0.6em;
+	padding: 5px 15px 5px 15px;
+	border-bottom: 1px solid #ccc;
+}
+.act-item-detail .item-name {
+	display: inline-block;
+	width: 60%;
+	font-weight: bold;
+}
+.act-item-detail .item-time {
+	display: inline-block;
+	width: 39%;
+	text-align: right;
+	font-weight: bold;
+}
+.act-detail-responsibles .title{
+	font-weight: bold;
+	margin: 10px 0 0 0;
+	font-size: 0.8em;
+}
+.act-detail-responsibles .text{
+	margin: 0px;
+	font-size: 0.8em;
+}
+.act-item-responsibles i{
+	font-size: 1.3em;
+}
+.empty-list {
+	margin: 123px auto;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+.empty-list button {
+	padding: 5px;
+}

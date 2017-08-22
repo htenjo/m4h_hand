@@ -2,5 +2,52 @@
   <span class="input-group-addon" id="sizing-addon1">
     <i class="fa fa-search" aria-hidden="true"></i>
   </span>
-  <input type="text" class="form-control" placeholder="Ingrese el texto a buscar" aria-describedby="sizing-addon1">
+  <input type="text" class="form-control" placeholder="Ingrese el texto a buscar" 
+    aria-describedby="sizing-addon1" (keyup)="updateSearch($event)">
+</div>
+
+<div class="act-list" *ngIf="activities">
+  <div class="act-detail" *ngFor="let activity of activities">
+    <section class="act-detail-header"> 
+      <i class="fa fa-trophy" aria-hidden="true"></i> {{activity.name}}
+    </section>
+    <article class="act-detail-desc" >{{activity.description}}</article>
+    <article class="act-detail-responsibles">
+      <p class="title" *ngIf="activity.responsibles && activity.responsibles.length > 0">Moderadores:</p>
+      <p class="text" *ngFor="let responsible of activity.responsibles">
+        <i class="fa fa-user" aria-hidden="true"></i> {{responsible}}
+      </p>
+    </article>
+    <section class="act-detail-footer">
+      <p class="item-time">
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        {{getDate(activity.startTime) | date:'HH:mm'}} - {{getDate(activity.endTime) | date:'HH:mm'}}
+      </p>
+      <p class="item-location">{{getLocationById(activity.location)}} <i class="fa fa-map-marker" aria-hidden="true"></i></p>
+    </section>
+  </div>
+</div>
+
+<div class="act-items-list" *ngIf="items">
+  <div class="act-detail" *ngFor="let item of items">
+    <section class="act-detail-header-task"> 
+      <i class="fa fa-thumb-tack" aria-hidden="true"></i> {{item.name}}
+    </section>
+    <article class="act-detail-desc" >{{item.description}}</article>
+    <article class="act-detail-responsibles">
+      <p class="title" *ngFor="let responsible of item.responsibles">
+        <i class="fa fa-user" aria-hidden="true"></i> {{responsible}}
+      </p>
+    </article>
+    <section class="act-detail-footer">
+      <p class="item-time">
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        {{getDate(item.startTime) | date:'HH:mm'}} - {{getDate(item.endTime) | date:'HH:mm'}}
+      </p>
+      <p class="item-location"> 
+         {{getLocationById(item.location)}}
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+      </p>
+    </section>
+  </div>
 </div>

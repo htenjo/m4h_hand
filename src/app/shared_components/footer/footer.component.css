@@ -26,6 +26,12 @@
 .footer .location-icon:hover,
 .footer .search-icon:hover,
 .footer .calendar-icon:hover {
-	background-color: blue;
+	background-color:#2d3456;
+}
+.footer .home-icon a:hover, 
+.footer .location-icon a:hover,
+.footer .search-icon a:hover,
+.footer .calendar-icon a:hover {
+	color:#ccc;
 }
 /*===============  footer end ============*/

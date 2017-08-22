@@ -1,23 +1,23 @@
 [
 	{
-		"name": "ASOCIMANO",
+		"name": "Asocimano",
 		"startDate": "2017-08-23",
 		"endDate": "2017-08-26",
 		"locations":[
 			{
-				"id":1,
+				"id":"A1",
 				"name":"Salón: Sala de Juntas"
 			},
 			{
-				"id":2,
+				"id":"A2",
 				"name":"Salón: Grill 1"
 			},
 			{
-				"id":3,
+				"id":"A3",
 				"name":"Salón: Fundadores"
 			},
 			{
-				"id":4,
+				"id":"A4",
 				"name":"Salón: Grill 2"
 			}
 		],
@@ -28,7 +28,7 @@
 				"description":"",
 				"startTime": "2017-08-23T12:00",
 				"endTime":"2017-08-23T14:00",
-				"location":1,
+				"location":"A1",
 				"responsibles": ["Junta Directiva - Board of Directors"],
 				"indexed":true
 			},
@@ -38,7 +38,7 @@
 				"description":"Union Meeting",
 				"startTime": "2017-08-23T14:00",
 				"endTime":"2017-08-23T16:00",
-				"location":2,
+				"location":"A2",
 				"responsibles": ["Dr. Julián Escobar"],
 				"indexed":true
 			},
@@ -48,7 +48,7 @@
 				"description":"Un repaso en anatomía y biomecánica del carpo.",
 				"startTime": "2017-08-23T18:00",
 				"endTime":"2017-08-23T19:00",
-				"location":3,
+				"location":"A3",
 				"responsibles": ["Dr. Marc García Elias", "Dr. Douglas Campbell"],
 				"indexed":true
 			},
@@ -56,9 +56,9 @@
 			{
 				"name":"Montaje Muestra Científica - Scientific Sample Assembly",
 				"description":"",
-				"startTime": "2017-08-23T8:00",
+				"startTime": "2017-08-23T08:00",
 				"endTime":"2017-08-23T23:00",
-				"location":3,
+				"location":"A3",
 				"responsibles": ["Dr. Marc García Elias", "Dr. Douglas Campbell"],
 				"indexed":false
 			},
@@ -66,9 +66,9 @@
 			{
 				"name":"Inscripciones - Inscriptions",
 				"description":"",
-				"startTime": "2017-08-24T7:30",
-				"endTime":"2017-08-24T8:30",
-				"location":3,
+				"startTime": "2017-08-24T07:30",
+				"endTime":"2017-08-24T08:30",
+				"location":"A3",
 				"responsibles": [],
 				"indexed":true
 			},
@@ -78,22 +78,25 @@
 				"description":"",
 				"startTime": "2017-08-24T08:00",
 				"endTime":"2017-08-24T10:00",
-				"location":3,
+				"location":"A3",
 				"responsibles":["Dra. Aida García"],
 				"indexed":true,
 				"activityItems":[
 					{
 						"name":"TI03",
 						"description":"3 Anatomía de las ramas sensitivas del nervio mediano y cubital en la mano y antebrazo – aplicación en la técnica de transferencia nerviosa para la recuperación de sensibilidad protectora en el aspecto radial de la mano.",
-						"startTime": "2017-08-24T8:30",
-						"endTime":"2017-08-24T8:40",
+						"startTime": "2017-08-24T08:30",
+						"endTime":"2017-08-24T08:40",
+						"location":"A3",
 						"responsibles":["Dr. Guillermo González"]
+						
 					},
 					{
 						"name":"TI04",
 						"description":" Transferencia nerviosa para la recuperación de la sensibilidad en el aspecto cubital de la mano – desarrollo a partir de la anatomía de las ramas sensitivas del nervio mediano y cubital en la mano y el antebrazo.",
-						"startTime": "2017-08-24T8:40",
-						"endTime":"2017-08-24T8:50",
+						"startTime": "2017-08-24T08:40",
+						"endTime":"2017-08-24T08:50",
+						"location":"A3",
 						"responsibles":["Dr. Sergio Bocanegra"]
 					},
 					{
@@ -101,6 +104,7 @@
 						"description":"Transferencia muscular funcional de la porción baja del trapecio en hombro paralítico, ipsilateral y contralateral.",
 						"startTime": "2017-08-24T08:50",
 						"endTime":"2017-08-24T09:00",
+						"location":"A3",
 						"responsibles":["Dr. Andrés Arango"]
 					},
 					{
@@ -108,6 +112,7 @@
 						"description":" Resultados de liberación endoscópica de túnel del carpo en la Fundación Valle del Lili: 4 años de experiencia",
 						"startTime": "2017-08-24T09:00",
 						"endTime":"2017-08-24T09:10",
+						"location":"A3",
 						"responsibles":["Dr. Álvaro Lombana"]
 					},
 					{
@@ -115,6 +120,7 @@
 						"description":" Resultados de reconstrucción de pulgar con colgajo neurovascular hetero digital usando transferencia de nervio.",
 						"startTime": "2017-08-24T09:10",
 						"endTime":"2017-08-24T09:20",
+						"location":"A3",
 						"responsibles":["Dr. Hugo Campo"]
 					},
 					{
@@ -122,6 +128,7 @@
 						"description":"Nueva técnica para para corrección de mal unión de radio distal: Osteotomía en doble cuña.",
 						"startTime": "2017-08-24T09:20",
 						"endTime":"2017-08-24T09:30",
+						"location":"A3",
 						"responsibles":["Dra. Lina P. Franco"]
 					},
 					{
@@ -129,6 +136,7 @@
 						"description":"Comparación biomecánica entre un sistema de fijación con clavos de Kirschner cruzados frente a un nuevo sistema de fijación de clavos de Kirschner con bloqueo externo en hueso animal.",
 						"startTime": "2017-08-24T09:30",
 						"endTime":"2017-08-24T09:40",
+						"location":"A3",
 						"responsibles":["Dr. Dallan Hernández"]
 					},
 					{
@@ -136,6 +144,7 @@
 						"description":" Protocolo de rehabilitación autónoma controlada en pacientes con reparación de los tendones flexores de los dedos de la mano. Serie de Casos",
 						"startTime": "2017-08-24T09:40",
 						"endTime":"2017-08-24T09:50",
+						"location":"A3",
 						"responsibles":["Dra. Bárbara Gómez"]
 					},
 					{
@@ -143,6 +152,7 @@
 						"description":"Técnica Autoinjerto de 360 grados para disociación crónica escafo-lunar y luno-piramidal: revisión de la técnica y discusión de resultados.",
 						"startTime": "2017-08-24T09:50",
 						"endTime":"2017-08-24T10:00",
+						"location":"A3",
 						"responsibles":["Dr. Juan Guillermo Ramírez"]
 					}
 
@@ -154,7 +164,7 @@
 				"description":"",
 				"startTime": "2017-08-24T10:00",
 				"endTime":"2017-08-24T10:30",
-				"location":3,
+				"location":"A3",
 				"responsibles": [],
 				"indexed":false
 			},
@@ -164,7 +174,7 @@
 				"description":"",
 				"startTime": "2017-08-24T10:30",
 				"endTime":"2017-08-24T11:30",
-				"location":4,
+				"location":"A4",
 				"responsibles": ["Dr. Alejandro Sandoval"],
 				"indexed":true,
 				"activityItems":[
@@ -173,6 +183,7 @@
 						"description":"",
 						"startTime": "2017-08-24T10:30",
 						"endTime":"2017-08-24T10:40",
+						"location":"A4",
 						"responsibles":["Dr. Jorge Martínez"]
 					},
 					{
@@ -180,6 +191,7 @@
 						"description":"",
 						"startTime": "2017-08-24T10:40",
 						"endTime":"2017-08-24T10:50",
+						"location":"A4",
 						"responsibles":["Dr. Álvaro Kafuri"]
 					},
 					{
@@ -187,6 +199,7 @@
 						"description":"",
 						"startTime": "2017-08-2410:50T",
 						"endTime":"2017-08-24T11:05",
+						"location":"A4",
 						"responsibles":["Dr. Douglas Campbell"]
 					},
 					{
@@ -194,6 +207,7 @@
 						"description":"",
 						"startTime": "2017-08-24T11:05",
 						"endTime":"2017-08-24T11:20",
+						"location":"A4",
 						"responsibles":["Dr. Ramiro Morales"]
 					},
 					{
@@ -201,6 +215,7 @@
 						"description":"",
 						"startTime": "2017-08-24T11:20",
 						"endTime":"2017-08-24T11:30",
+						"location":"A4",
 						"responsibles":[]
 					}
 				]
@@ -212,15 +227,13 @@
 
 
 
-
-
-
 	{
-		"name": "ASCOTEMA",
+		"name": "Ascotema",
 		"startDate": "2017-08-23",
 		"endDate": "2017-08-26",
-		"places":[
+		"locations":[
 			{
+				"id":"B1",
 				"name":"Salón: Sala de Juntas"
 			}
 		],
@@ -229,7 +242,7 @@
 				"name":"Talleres Precongreso",
 				"startTime": "2017-08-23T14:00",
 				"endTime":"2017-08-23T18:00",
-				"location":"Centro Médico Carlos Ardila Lulle",
+				"location":"B1",
 				"address":"Cra 24 No 154-106 El Bosque",
 				"city":"FloridaBlanca - Santander",
 				"responsible": [],
@@ -237,10 +250,16 @@
 
 				"activityItems":[
 					{
-						"name":"1. Evaluación de la mano"
+						"name":"1. Evaluación de la mano",
+						"location":"B1",
+						"startTime": "2017-08-23T14:00",
+						"endTime":"2017-08-23T18:00"
 					},
 					{
-						"name":"2. Evaluación del Cuadrante Superior desde las cadenas musculares"
+						"name":"2. Evaluación del Cuadrante Superior desde las cadenas musculares",
+						"location":"B1",
+						"startTime": "2017-08-23T14:00",
+						"endTime":"2017-08-23T18:00"
 					}
 				]
 			}

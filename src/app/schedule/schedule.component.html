@@ -1,105 +1,76 @@
 <div class="option-filters">
-  <div class="option option-event">Asocimano</div>
-  <div class="option option-event">Ascotema</div>
+  <div class="option option-event {{getEventStyle('Asocimano')}}" (click)="onSelectEvent('Asocimano')">
+    Asocimano
+  </div>
+  <div class="option option-event {{getEventStyle('Ascotema')}}" (click)="onSelectEvent('Ascotema')">
+    Ascotema 
+  </div>
 
-  <div class="option option-day">Mié 23</div>
-  <div class="option option-day">Jue 24</div>
-  <div class="option option-day">Vie 25</div>
-  <div class="option option-day">Sáb 26</div>
+  <div class="option option-day {{getDayStyle('23')}}" (click)="onSelectDay('23')">
+    Mié 23
+  </div>
+  <div class="option option-day {{getDayStyle('24')}}" (click)="onSelectDay('24')">
+    Jue 24 
+  </div>
+  <div class="option option-day {{getDayStyle('25')}}" (click)="onSelectDay('25')">
+    Vie 25 
+  </div>
+  <div class="option option-day {{getDayStyle('26')}}" (click)="onSelectDay('26')">
+    Sáb 26
+  </div>
 </div>
 
-<div class="act-list">
-  <div class="act-time-range">11:30 - 14:30</div>
+<div class="act-list" *ngIf="selectedEvent && !selectedActivity">
+  <div *ngFor="let time of listSchedules()">
+    <div class="act-time-range">
+      <i class="fa fa-clock-o" aria-hidden="true"></i>
+      {{getStartDateFromTimeHeader(time) | date:'HH:mm' }} - {{getEndDateFromTimeHeader(time) | date:'HH:mm' }}
+    </div>
+    <div class="act-detail" *ngFor="let activity of schedule[time]" (click)="onSelectActivity(activity)">
+      <section class="act-detail-header">{{activity.name}}</section>
+      <article class="act-detail-desc" >{{activity.description}}</article>
+      <section class="act-detail-footer">
+        {{getLocationById(activity.location)}} <i class="fa fa-map-marker" aria-hidden="true"></i> 
+      </section>
+    </div>
+  </div>
+  <div class="empty-list" *ngIf="listSchedules().length == 0">
+    <p>Actividades no disponibles</p>
+  </div>
+</div>
+
+<div class="act-item-list" *ngIf="hasActivityItemsToDisplay()">
   <div class="act-detail">
-    <section class="act-detail-header">Acá no sé que poner aún</section>
-    <article class="act-detail-desc">
-      This is the title of an activity to bla bla bla asd -fasfsafsadf  asdfasdfasfsadf asdfasdfasf asfdsafdas asddfasf asf sadf asf asfd asfd asf asf asdf 
+    <section class="act-detail-header">{{selectedActivity.name}}</section>
+    <article class="act-detail-desc" >{{selectedActivity.description}}</article>
+    <article class="act-detail-responsibles">
+      <p class="title" *ngIf="selectedActivity.responsibles && selectedActivity.responsibles.length > 0">Moderadores:</p>
+      <p class="text" *ngFor="let responsible of selectedActivity.responsibles">
+        <i class="fa fa-user" aria-hidden="true"></i> {{responsible}}
+      </p>
     </article>
-    <section class="act-detail-footer">
-      Ubicación: Salón Fundadores
+    <div class="act-item-footer">
+      <i class="fa fa-map-marker" aria-hidden="true"></i> {{getLocationById(selectedActivity.location)}}
+    </div>
+  </div>
+
+  <div *ngFor="let item of selectedActivity.activityItems">
+    <section class="act-item-detail">
+      <p class="item-name text-justify">{{item.name}}</p>
+      <p class="item-time">
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        {{getDate(item.startTime) | date:'HH:mm'}} - {{getDate(item.endTime) | date:'HH:mm'}}
+      </p>
+      <p class="text-justify">{{item.description}}</p>
+      <section class="act-item-responsibles">
+        <div class="" *ngFor="let responsible of item.responsibles">
+          <p><i class="fa fa-user" aria-hidden="true"></i> {{responsible}}</p>
+        </div>
+      </section>
     </section>
   </div>
-  <div class="act-detail">
-    <section class="act-detail-header">Acá no sé que poner aún</section>
-    <article class="act-detail-desc">
-      This is the title of an activity to bla bla bla
-    </article>
-    <section class="act-detail-footer">
-      Ubicación: Salón Fundadores
-    </section>
-  </div>
-  <div class="act-detail">
-    <section class="act-detail-header">Acá no sé que poner aún</section>
-    <article class="act-detail-desc">
-      This is the title of an activity to bla bla bla
-    </article>
-    <section class="act-detail-footer">
-      Ubicación: Salón Fundadores
-    </section>
-  </div>
-  <div class="act-detail">
-    <section class="act-detail-header">Acá no sé que poner aún</section>
-    <article class="act-detail-desc">
-      This is the title of an activity to bla bla bla
-    </article>
-    <section class="act-detail-footer">
-      Ubicación: Salón Fundadores
-    </section>
-  </div>
-  <div class="act-detail">
-    <section class="act-detail-header">Acá no sé que poner aún</section>
-    <article class="act-detail-desc">
-      This is the title of an activity to bla bla bla
-    </article>
-    <section class="act-detail-footer">
-      Ubicación: Salón Fundadores
-    </section>
-  </div>
-  <div class="act-detail">
-    <section class="act-detail-header">Acá no sé que poner aún</section>
-    <article class="act-detail-desc">
-      This is the title of an activity to bla bla bla
-    </article>
-    <section class="act-detail-footer">
-      Ubicación: Salón Fundadores
-    </section>
-  </div>
-  <div class="act-detail">
-    <section class="act-detail-header">Acá no sé que poner aún</section>
-    <article class="act-detail-desc">
-      This is the title of an activity to bla bla bla
-    </article>
-    <section class="act-detail-footer">
-      Ubicación: Salón Fundadores
-    </section>
-  </div>
-  
-  <div class="act-time-range">14:30 - 18:30</div>
-  <div class="act-detail">
-    <section class="act-detail-header">Acá no sé que poner aún</section>
-    <article class="act-detail-desc">
-      This is the title of an activity to bla bla bla
-    </article>
-    <section class="act-detail-footer">
-      Ubicación: Salón Fundadores
-    </section>
-  </div>
-  <div class="act-detail">
-    <section class="act-detail-header">Acá no sé que poner aún</section>
-    <article class="act-detail-desc">
-      This is the title of an activity to bla bla bla
-    </article>
-    <section class="act-detail-footer">
-      Ubicación: Salón Fundadores
-    </section>
-  </div>
-  <div class="act-detail">
-    <section class="act-detail-header">Acá no sé que poner aún</section>
-    <article class="act-detail-desc">
-      This is the title of an activity to bla bla bla
-    </article>
-    <section class="act-detail-footer">
-      Ubicación: Salón Fundadores
-    </section>
-  </div>
+</div>
+<div class="empty-list" *ngIf="selectedActivity !== null && !hasActivityItemsToDisplay()">
+  <p>No hay detalles de la actividad</p>
+  <button (click)="onUnselectActivity()">Volver</button>
 </div>

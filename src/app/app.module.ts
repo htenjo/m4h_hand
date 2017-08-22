@@ -31,7 +31,9 @@ import { EventService } from './shared_services/event.service';
     HttpModule,
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [EventService],
+  providers: [
+    EventService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

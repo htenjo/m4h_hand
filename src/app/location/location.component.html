@@ -1,3 +1,16 @@
-<p>
-  location works!
-</p>
+<div class="option-filters">
+  <div class="option-event {{getEventStyle('Asocimano')}}" (click)="onSelectEvent('Asocimano')">
+    Asocimano
+  </div>
+  <div class="option-event {{getEventStyle('Ascotema')}}" (click)="onSelectEvent('Ascotema')">
+    Ascotema
+  </div>
+</div>
+
+<div class="location-list">
+  <div *ngFor="let location of selectedLocations">
+    <p class="location-item">
+      <i class="fa fa-map-marker" aria-hidden="true"></i> {{location.name}}
+    </p>
+  </div>
+</div>

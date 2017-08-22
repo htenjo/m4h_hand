@@ -2,12 +2,12 @@ export interface Event {
     name:string;
     startDate:string;
     endDate:string;
-    location:Location[];
+    locations:Location[];
     activities:Activity[]
 }
 
 export interface Location {
-    id:number;
+    id:string;
     name:string;
 }
 
@@ -27,5 +27,6 @@ export interface ActivityItem {
     description:string;
     startTime:string;
     endTime:string;
+    location:Location;
     responsibles:string[];
 }
