@@ -9,11 +9,11 @@ import { Event, Activity } from '../shared_components/model';
   styleUrls: ['./schedule.component.css']
 })
 export class ScheduleComponent implements OnInit {
-  private selectedEvent:Event;
-  private selectedDay:string;
-  private selectedActivity:Activity = null;
-  private events:Event[];
-  private schedule;
+   selectedEvent:Event;
+   selectedDay:string;
+   selectedActivity:Activity = null;
+   events:Event[];
+   schedule;
 
   constructor(private eventService:EventService) {
   }

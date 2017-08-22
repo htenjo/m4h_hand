@@ -8,9 +8,9 @@ import { Event, Activity, Location } from '../shared_components/model';
   styleUrls: ['./location.component.css']
 })
 export class LocationComponent implements OnInit {
-  private events:Event[];
-  private selectedEvent:Event;
-  private selectedLocations:Location[];
+  events:Event[];
+  selectedEvent:Event;
+  selectedLocations:Location[];
   constructor(private eventService:EventService) { }
 
   ngOnInit() {

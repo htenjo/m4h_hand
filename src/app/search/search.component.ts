@@ -8,11 +8,11 @@ import { Event, Activity, Location, ActivityItem } from '../shared_components/mo
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
-  private events:Event[];
-  private schedule;
-  private activities:Activity[];
-  private items:ActivityItem[];
-  private locations:Location[] = [];
+   events:Event[];
+   schedule;
+   activities:Activity[];
+   items:ActivityItem[];
+   locations:Location[] = [];
 
   constructor(private eventService:EventService) { }
 
