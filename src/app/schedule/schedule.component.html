@@ -29,7 +29,7 @@
     <div class="act-detail" *ngFor="let activity of schedule[time]" (click)="onSelectActivity(activity)">
       <section class="act-detail-header">{{activity.name}}</section>
       <article class="act-detail-desc" >{{activity.description}}</article>
-      <section class="act-detail-footer">
+      <section class="act-detail-footer" *ngIf="getLocationById(activity.location) !== ''">
         {{getLocationById(activity.location)}} <i class="fa fa-map-marker" aria-hidden="true"></i> 
       </section>
     </div>
@@ -49,7 +49,7 @@
         <i class="fa fa-user" aria-hidden="true"></i> {{responsible}}
       </p>
     </article>
-    <div class="act-item-footer">
+    <div class="act-item-footer" *ngIf="getLocationById(selectedActivity.location) !== ''">
       <i class="fa fa-map-marker" aria-hidden="true"></i> {{getLocationById(selectedActivity.location)}}
     </div>
   </div>

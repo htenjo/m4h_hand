@@ -58,8 +58,8 @@
 				"description":"",
 				"startTime": "2017-08-23T08:00",
 				"endTime":"2017-08-23T23:00",
-				"location":"A3",
-				"responsibles": ["Dr. Marc García Elias", "Dr. Douglas Campbell"],
+				"location":"",
+				"responsibles": [],
 				"indexed":false
 			},
 
@@ -76,7 +76,7 @@
 			{
 				"name":"Trabajos de Ingreso - Papers Presentation",
 				"description":"",
-				"startTime": "2017-08-24T08:00",
+				"startTime": "2017-08-24T08:30",
 				"endTime":"2017-08-24T10:00",
 				"location":"A3",
 				"responsibles":["Dra. Aida García"],
@@ -84,16 +84,15 @@
 				"activityItems":[
 					{
 						"name":"TI03",
-						"description":"3 Anatomía de las ramas sensitivas del nervio mediano y cubital en la mano y antebrazo – aplicación en la técnica de transferencia nerviosa para la recuperación de sensibilidad protectora en el aspecto radial de la mano.",
+						"description":"Anatomía de las ramas sensitivas del nervio mediano y cubital en la mano y antebrazo – aplicación en la técnica de transferencia nerviosa para la recuperación de sensibilidad protectora en el aspecto radial de la mano.",
 						"startTime": "2017-08-24T08:30",
 						"endTime":"2017-08-24T08:40",
 						"location":"A3",
 						"responsibles":["Dr. Guillermo González"]
-						
 					},
 					{
 						"name":"TI04",
-						"description":" Transferencia nerviosa para la recuperación de la sensibilidad en el aspecto cubital de la mano – desarrollo a partir de la anatomía de las ramas sensitivas del nervio mediano y cubital en la mano y el antebrazo.",
+						"description":"Transferencia nerviosa para la recuperación de la sensibilidad en el aspecto cubital de la mano – desarrollo a partir de la anatomía de las ramas sensitivas del nervio mediano y cubital en la mano y el antebrazo.",
 						"startTime": "2017-08-24T08:40",
 						"endTime":"2017-08-24T08:50",
 						"location":"A3",
@@ -109,7 +108,7 @@
 					},
 					{
 						"name":"TI06",
-						"description":" Resultados de liberación endoscópica de túnel del carpo en la Fundación Valle del Lili: 4 años de experiencia",
+						"description":"Resultados de liberación endoscópica de túnel del carpo en la Fundación Valle del Lili: 4 años de experiencia",
 						"startTime": "2017-08-24T09:00",
 						"endTime":"2017-08-24T09:10",
 						"location":"A3",
@@ -117,7 +116,7 @@
 					},
 					{
 						"name":"TI07",
-						"description":" Resultados de reconstrucción de pulgar con colgajo neurovascular hetero digital usando transferencia de nervio.",
+						"description":"Resultados de reconstrucción de pulgar con colgajo neurovascular hetero digital usando transferencia de nervio.",
 						"startTime": "2017-08-24T09:10",
 						"endTime":"2017-08-24T09:20",
 						"location":"A3",
@@ -141,7 +140,7 @@
 					},
 					{
 						"name":"TI10",
-						"description":" Protocolo de rehabilitación autónoma controlada en pacientes con reparación de los tendones flexores de los dedos de la mano. Serie de Casos",
+						"description":"Protocolo de rehabilitación autónoma controlada en pacientes con reparación de los tendones flexores de los dedos de la mano. Serie de Casos",
 						"startTime": "2017-08-24T09:40",
 						"endTime":"2017-08-24T09:50",
 						"location":"A3",
@@ -155,7 +154,6 @@
 						"location":"A3",
 						"responsibles":["Dr. Juan Guillermo Ramírez"]
 					}
-
 				]
 			},
 
@@ -174,7 +172,7 @@
 				"description":"",
 				"startTime": "2017-08-24T10:30",
 				"endTime":"2017-08-24T11:30",
-				"location":"A4",
+				"location":"A3",
 				"responsibles": ["Dr. Alejandro Sandoval"],
 				"indexed":true,
 				"activityItems":[
@@ -183,7 +181,7 @@
 						"description":"",
 						"startTime": "2017-08-24T10:30",
 						"endTime":"2017-08-24T10:40",
-						"location":"A4",
+						"location":"A3",
 						"responsibles":["Dr. Jorge Martínez"]
 					},
 					{
@@ -191,15 +189,15 @@
 						"description":"",
 						"startTime": "2017-08-24T10:40",
 						"endTime":"2017-08-24T10:50",
-						"location":"A4",
+						"location":"A3",
 						"responsibles":["Dr. Álvaro Kafuri"]
 					},
 					{
 						"name":"Fijación intramedular en radio distal / Intramedullary fixation in distal radius.",
 						"description":"",
-						"startTime": "2017-08-2410:50T",
+						"startTime": "2017-08-24T10:50",
 						"endTime":"2017-08-24T11:05",
-						"location":"A4",
+						"location":"A3",
 						"responsibles":["Dr. Douglas Campbell"]
 					},
 					{
@@ -207,7 +205,7 @@
 						"description":"",
 						"startTime": "2017-08-24T11:05",
 						"endTime":"2017-08-24T11:20",
-						"location":"A4",
+						"location":"A3",
 						"responsibles":["Dr. Ramiro Morales"]
 					},
 					{
@@ -215,14 +213,322 @@
 						"description":"",
 						"startTime": "2017-08-24T11:20",
 						"endTime":"2017-08-24T11:30",
-						"location":"A4",
+						"location":"A3",
 						"responsibles":[]
 					}
 				]
-			}
+			},
 
+			{
+				"name":"Módulo II Lesiones ligamentarias dedos / Ligament injuries on fingers.",
+				"description":"",
+				"startTime": "2017-08-24T11:30",
+				"endTime":"2017-08-24T12:30",
+				"location":"A3",
+				"responsibles": ["Dr. Carlos Torres"],
+				"indexed":true,
+				"activityItems":[
+					{
+						"name":"Articulación interfalangica proximal de la lesión ligamentaria a la fractura / PIP, from ligament lesion to fractures.",
+						"description":"",
+						"startTime": "2017-08-24T11:30",
+						"endTime":"2017-08-24T11:45",
+						"location":"A3",
+						"responsibles":["Dr. Wolfgang Hintringer"]
+					},
+					{
+						"name":"Rigidez interfalangica de los dedos ¿Qué hacer? / Interphalangeal stiffness of the fingers, what to do ?",
+						"description":"",
+						"startTime": "2017-08-24T11:45",
+						"endTime":"2017-08-24T11:55",
+						"location":"A3",
+						"responsibles":["Dr. Carlos Rueda"]
+					},
+					{
+						"name":"Lesión placa volar de los dedos, frecuente? / Volar plate lesion , is frequent ?",
+						"description":"",
+						"startTime": "2017-08-24T11:55",
+						"endTime":"2017-08-24T12:10",
+						"location":"A3",
+						"responsibles":["Dr. Wolfgang Hintringer"]
+					},
+					{
+						"name":"Lesión de Stener / Stener lesion",
+						"description":"",
+						"startTime": "2017-08-24T12:10",
+						"endTime":"2017-08-24T12:25",
+						"location":"A3",
+						"responsibles":["Dr. Ramiro Morales"]
+					},
+					{
+						"name":"Preguntas - Questions",
+						"description":"",
+						"startTime": "2017-08-24T12:25",
+						"endTime":"2017-08-24T12:30",
+						"location":"A3",
+						"responsibles":[]
+					}
+				]
+			},
+
+			{
+				"name":"Asamblea ASOCIMANO - Assembly",
+				"description":"",
+				"startTime": "2017-08-24T12:30",
+				"endTime":"2017-08-24T13:30",
+				"location":"A3",
+				"responsibles": ["Dr. Carlos Torres"],
+				"indexed":true
+			},
+
+			{
+				"name":"Salón: Caracoli",
+				"description":"",
+				"startTime": "2017-08-24T13:30",
+				"endTime":"2017-08-24T14:45",
+				"location":"A3",
+				"responsibles": [],
+				"indexed":true
+			},
+
+			{
+				"name":"Simposio IBRA - IBRA Symposium. Fracturas especiales del radio distal y su tratamiento /Specific Fractures and Treatment of the distal radius.",
+				"description":"",
+				"startTime": "2017-08-24T15:00",
+				"endTime":"2017-08-24T16:30",
+				"location":"A3",
+				"responsibles": ["Dr. Luis F. Náquira"],
+				"indexed":true,
+				"activityItems":[
+					{
+						"name":"Clasificaciones basades en tomografia /CT-Based classification",
+						"description":"",
+						"startTime": "2017-08-24T15:00",
+						"endTime":"2017-08-24T15:15",
+						"location":"A3",
+						"responsibles":["Dr. Meisser López"]
+					},
+					{
+						"name":"Problemas con la faceta del lunate ? /Troublesome lunate facet",
+						"description":"",
+						"startTime": "2017-08-24T15:15",
+						"endTime":"2017-08-24T15:30",
+						"location":"A3",
+						"responsibles":["Dr. Hermann Krimmer"]
+					},
+					{
+						"name":"Estrategias para solucionar fallas tempranas / Strategies in early failures.",
+						"description":"",
+						"startTime": "2017-08-24T15:30",
+						"endTime":"2017-08-24T15:45",
+						"location":"A3",
+						"responsibles":["Dr. Luis Felipe Naquira"]
+					},
+					{
+						"name":"Artrodesis radio carpiana , una alternativa en fallas tardias ?/RSL fusion , what to do in longstanding failures ?",
+						"description":"",
+						"startTime": "2017-08-24T15:45",
+						"endTime":"2017-08-24T16:00",
+						"location":"A3",
+						"responsibles":["Dr. Wolfgang Hintringer"]
+					},
+					{
+						"name":"Preguntas /Questions",
+						"description":"",
+						"startTime": "2017-08-24T16:00",
+						"endTime":"2017-08-24T16:15",
+						"location":"A3",
+						"responsibles":[]
+					},
+					{
+						"name":"Coffe Break",
+						"description":"",
+						"startTime": "2017-08-24T16:15",
+						"endTime":"2017-08-24T16:30",
+						"location":"A3",
+						"responsibles":[]
+					}
+				]
+			},
+
+			{
+				"name":"Ceremonia de Inauguración",
+				"description":"",
+				"startTime": "2017-08-24T16:30",
+				"endTime":"2017-08-24T17:00",
+				"location":"A3",
+				"responsibles": [],
+				"indexed":true
+			},
+
+			{
+				"name":"Módulo III Problemas ligamentarios del carpo/ Carpal ligament problems",
+				"description":"",
+				"startTime": "2017-08-24T17:00",
+				"endTime":"2017-08-24T18:00",
+				"location":"A3",
+				"responsibles": ["Dr. Luis F. Naquira"],
+				"indexed":true,
+				"activityItems":[
+					{
+						"name":"Biomecanica de la muñeca / Biomechanics of the wrist",
+						"description":"",
+						"startTime": "2017-08-24T17:00",
+						"endTime":"2017-08-24T17:15",
+						"location":"A3",
+						"responsibles":["Dr. Marc García Elias"]
+					},
+					{
+						"name":"Lesión escafoluando Clasificacion ¿es util? / Scapho-lunate lesion , the classification, it´s useful ?",
+						"description":"",
+						"startTime": "2017-08-24T17:15",
+						"endTime":"2017-08-24T17:30",
+						"location":"A3",
+						"responsibles":["Dr. Felix Riaño"]
+					},
+					{
+						"name":"Lesión escafolunado mi tratamiento / Scapho-lunate ligament lesion, my treatment.",
+						"description":"",
+						"startTime": "2017-08-24T17:30",
+						"endTime":"2017-08-24T17:45",
+						"location":"A3",
+						"responsibles":["Dr. Marc García Elias"]
+					},
+					{
+						"name":"Lesión escafolunado Tratamiento artroscopico / Scapho-lunate ligament lesion, arthroscopic treatment",
+						"description":"",
+						"startTime": "2017-08-24T17:45",
+						"endTime":"2017-08-24T18:00",
+						"location":"A3",
+						"responsibles":["Dr. Jan-Ragnar Hausgstvedt "]
+					}
+				]
+			},
+
+			{
+				"name":"Salida al Cerro El Santísimo -Cocktail at the Santisimo Hill (transport from the club)",
+				"description":"",
+				"startTime": "2017-08-24T18:00",
+				"endTime":"2017-08-24T18:30",
+				"location":"A3",
+				"responsibles": [],
+				"indexed":true
+			},
+
+			{
+				"name":"Cocktail de Bienvenida / Welcome cocktail DIVERQUIN",
+				"description":"Cerro el Santísimo / The Santisimo Hill",
+				"startTime": "2017-08-24T19:00",
+				"endTime":"2017-08-24T21:40",
+				"location":"A3",
+				"responsibles": [],
+				"indexed":true
+			},
+
+			{
+				"name":"Inscripciones- Inscriptions",
+				"description":"",
+				"startTime": "2017-08-24T07:30",
+				"endTime":"2017-08-24T08:30",
+				"location":"A4",
+				"responsibles": [],
+				"indexed":true
+			},
+
+			{
+				"name":"Trabajos Libres - Papers Presentation",
+				"description":"",
+				"startTime": "2017-08-24T08:30",
+				"endTime":"2017-08-24T10:00",
+				"location":"A4",
+				"responsibles": ["Dr. Alejandro Sandoval"],
+				"indexed":true,
+				"activityItems":[
+					{
+						"name":"TL03",
+						"description":"Resultados funcionales y de electrodiagnóstico en paciente con síndrome del túnel del carpo luego de la liberación quirúrgica.",
+						"startTime": "2017-08-24T08:30",
+						"endTime":"2017-08-24T08:38",
+						"location":"A4",
+						"responsibles":["Dr. Enrique Vergara","Dr. Wilson Tovar Cuellar", "Dr. Juan Manuel Viveros Carreño"]
+					},
+					{
+						"name":"TL05",
+						"description":"Regeneración y reparación tendinosa con medios condicionados de células madres. Estudio experimental en conejos.",
+						"startTime": "2017-08-24T08:38",
+						"endTime":"2017-08-24T08:46",
+						"location":"A4",
+						"responsibles":["Dr. Enrique Vergara", "Dr. Orlando Chaparro", "Dra. Lina Jaramillo Barberi", "Dr. Agustin Zapata Acosta"]
+					},
+					{
+						"name":"TL09",
+						"description":"Fracturas del escafoides carpiano, descripción de las lesiones asociadas y resultados del tratamiento.",
+						"startTime": "2017-08-24T08:46",
+						"endTime":"2017-08-24T08:54",
+						"location":"A4",
+						"responsibles":["Dr. Elkin Lozano", "Dr. Luis Carlos Díaz Batlle", "Dr. Gabriel Fletscher", "Dr. Juan Sebastián Vargas H."]
+					},
+					{
+						"name":"TL13",
+						"description":"Evaluación post operatoria reciente y tardía del tratamiento quirúrgico de la lesión de Stener en pacientes activos del Hospital de Carabineros utilizando ancla como medio de inserción.",
+						"startTime": "2017-08-24T08:54",
+						"endTime":"2017-08-24T09:02",
+						"location":"A4",
+						"responsibles":["Dr Oscar Ahumado", "Dr. Javier Palma Pinto", "Dr. Nicolás Bustinza Loayza", "Dra. Inta Macarena Ahumada Benedetto."]
+					},
+					{
+						"name":"TL16",
+						"description":"Reconstrucción del ligamento colateral Ulnar en lesiones metacarpofalangicas crónicas del pulgar; Modificación de una técnica.",
+						"startTime": "2017-08-24T09:02",
+						"endTime":"2017-08-24T09:10",
+						"location":"A4",
+						"responsibles":["Dr. Fidel Cañon"]
+					},
+					{
+						"name":"TL17",
+						"description":"Resultados radiologicos y funcionales de pacientes con fractura de falange proximal manejados con reduccion cerrada y fijacion percutanea.",
+						"startTime": "2017-08-24T09:10",
+						"endTime":"2017-08-24T09:18",
+						"location":"A4",
+						"responsibles":["Dra. Viviana Cortes", "Dr. Guillermo Varón", "Dr. Carlos Arroyo", "Dr. Cesar Abril", "Dr. Helman Monrroy", "Dr. Julio Nomesque", "Dr. Juan Hoyos", "Dra. Valeria Cadena", "Dr.Sebastián Garavitov"]
+					},
+					{
+						"name":"TL18",
+						"description":"Resultados funcionales de la artroplastia trapecio metacarpiana con tenosuspención del abductor policis longus con técnica de Zancolli en pacientes con rizartrosis.",
+						"startTime": "2017-08-24T09:18",
+						"endTime":"2017-08-24T09:26",
+						"location":"A4",
+						"responsibles":["Dr. Carlos Arroyo", "Dr. Helman Monroy Zambrano", "Dr. Guillermo Varon Plata", "Dr. Cesar Abril Gaona", "Dra. Viviana Cortes Buitrago", "Dra. Liseth Marcela Gamboa Blanco"]
+					},
+					{
+						"name":"TL20",
+						"description":"Rendimiento diagnóstico de las pruebas clínicas y nueva propuesta en síndrome de túnel del carpo.",
+						"startTime": "2017-08-24T09:26",
+						"endTime":"2017-08-24T09:34",
+						"location":"A4",
+						"responsibles":["Dr. Enrique Vergara", "Dr. Francisco Javier Lores García", "Dr. José Tomás Martínez Villegas."]
+					},
+					{
+						"name":"TL21",
+						"description":"Lesiones de los tendones flexores en niños. A propósito de una serie de casos.",
+						"startTime": "2017-08-24T09:34",
+						"endTime":"2017-08-24T09:42",
+						"location":"A4",
+						"responsibles":["Dr. Enrique Vergara", "Dr. Manuel A. Hernández Solano"]
+					}
+				]
+			}
 		]
 	},
+
+
+ 
+
+ 
+
+ 
+
+
 
 
 
@@ -234,7 +540,13 @@
 		"locations":[
 			{
 				"id":"B1",
-				"name":"Salón: Sala de Juntas"
+				"name":"Centro Médico Carlos Ardila Lulle.",
+				"address":"Cra 24 No 154-106 El Bosque",
+				"city":"FloridaBlanca - Santander"
+			},
+			{
+				"id":"B2",
+				"name":"Salón Grill 2"
 			}
 		],
 		"activities" : [
@@ -243,26 +555,111 @@
 				"startTime": "2017-08-23T14:00",
 				"endTime":"2017-08-23T18:00",
 				"location":"B1",
-				"address":"Cra 24 No 154-106 El Bosque",
-				"city":"FloridaBlanca - Santander",
-				"responsible": [],
+				"responsibles": [],
 				"indexed":true,
 
 				"activityItems":[
 					{
 						"name":"1. Evaluación de la mano",
-						"location":"B1",
 						"startTime": "2017-08-23T14:00",
-						"endTime":"2017-08-23T18:00"
+						"endTime":"2017-08-23T18:00",
+						"location":"B1",
+						"responsibles":[]
 					},
 					{
 						"name":"2. Evaluación del Cuadrante Superior desde las cadenas musculares",
-						"location":"B1",
 						"startTime": "2017-08-23T14:00",
-						"endTime":"2017-08-23T18:00"
+						"endTime":"2017-08-23T18:00",
+						"location":"B1",
+						"responsibles":[]
+					}
+				]
+			},
+
+			{
+				"name":"Almuerzo",
+				"startTime": "2017-08-24T12:30",
+				"endTime":"2017-08-24T13:30",
+				"location":"B2",
+				"responsibles": [],
+				"indexed":false
+			},
+
+			{
+				"name":"Módulo 1: Rígidez del Miembro Superior",
+				"startTime": "2017-08-24T13:30",
+				"endTime":"2017-08-24T16:30",
+				"location":"B2",
+				"responsibles": [],
+				"indexed":true,
+
+				"activityItems":[
+					{
+						"name":"Analizando desde la visión terapéutica la IFP",
+						"startTime": "2017-08-24T15:00",
+						"endTime":"2017-08-24T18:30",
+						"location":"B2",
+						"responsibles":["OT. Francoise Cherry"]
+					},
+					{
+						"name":"Analizando desde la visión terapéutica la muñeca Rigida",
+						"startTime": "2017-08-24T15:00",
+						"endTime":"2017-08-24T18:30",
+						"location":"B2",
+						"responsibles":["OT. Francoise Cherry"]
+					},
+					{
+						"name":"Analizando desde la visión terapéutica el codo Rígido",
+						"startTime": "2017-08-24T15:00",
+						"endTime":"2017-08-24T15:15",
+						"location":"B2",
+						"responsibles":["FT. Adiela Estrada"]
+					},
+					{
+						"name":"Analizando desde la visión terapéutica la capsulitis adhesiva del hombro.",
+						"startTime": "2017-08-24T15:15",
+						"endTime":"2017-08-24T15:30",
+						"location":"B2",
+						"responsibles":["FT. Adiela Estrada"]
+					},
+					{
+						"name":"Aplicación de Técnicas desde la terapia manual ortopédica en rigidez articular del miembro superior.",
+						"startTime": "2017-08-24T15:30",
+						"endTime":"2017-08-24T15:45",
+						"location":"B2",
+						"responsibles":["FT. Diana Zapata"]
+					},
+					{
+						"name":"Aplicación de Pruebas Terapéuticas basados en la evidencia",
+						"startTime": "2017-08-24T15:45",
+						"endTime":"2017-08-24T16:00",
+						"location":"B2",
+						"responsibles":["FT. Adiela Estrada"]
+					},
+					{
+						"name":"Preguntas",
+						"startTime": "2017-08-24T16:00",
+						"endTime":"2017-08-24T16:15",
+						"location":"B2",
+						"responsibles":[]
+					},
+					{
+						"name":"Coffe Break",
+						"startTime": "2017-08-24T16:15",
+						"endTime":"2017-08-24T16:30",
+						"location":"B2",
+						"responsibles":[]
+					},
+					{
+						"name":"Ceremonia de Inauguración",
+						"startTime": "2017-08-24T16:30",
+						"endTime":"2017-08-24T17:00",
+						"location":"B2",
+						"responsibles":[]
 					}
 				]
 			}
+
 		]
 	}
 ]

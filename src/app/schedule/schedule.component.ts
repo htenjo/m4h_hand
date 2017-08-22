@@ -135,7 +135,8 @@ export class ScheduleComponent implements OnInit {
   }
 
   getLocationById(locationId:string) : string {
-    return this.selectedEvent.locations.find(location => location.id === locationId).name;
+    let location = this.selectedEvent.locations.find(location => location.id === locationId);
+    return location ? location.name : '';
   }
 
   getDayStyle(selectedDay:string) : string {
