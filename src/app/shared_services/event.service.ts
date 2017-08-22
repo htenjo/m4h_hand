@@ -13,7 +13,7 @@ export class EventService {
 
   listEvents() : Observable<Event[]> {
     return this.http
-      .get('/assets/data/events.json')
+      .get('./assets/data/events.json')
       .map(res => <Event[]>res.json());
   }
 }
