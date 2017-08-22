@@ -24,7 +24,7 @@
   <div *ngFor="let time of listSchedules()">
     <div class="act-time-range">
       <i class="fa fa-clock-o" aria-hidden="true"></i>
-      {{getStartDateFromTimeHeader(time) | date:'HH:mm' }} - {{getEndDateFromTimeHeader(time) | date:'HH:mm' }}
+      {{getStartDateFromTimeHeader(time)}} - {{getEndDateFromTimeHeader(time)}}
     </div>
     <div class="act-detail" *ngFor="let activity of schedule[time]" (click)="onSelectActivity(activity)">
       <section class="act-detail-header">{{activity.name}}</section>
@@ -59,7 +59,7 @@
       <p class="item-name text-justify">{{item.name}}</p>
       <p class="item-time">
         <i class="fa fa-clock-o" aria-hidden="true"></i>
-        {{getDate(item.startTime) | date:'HH:mm'}} - {{getDate(item.endTime) | date:'HH:mm'}}
+        {{getDate(item.startTime)}} - {{getDate(item.endTime)}}
       </p>
       <p class="text-justify">{{item.description}}</p>
       <section class="act-item-responsibles">

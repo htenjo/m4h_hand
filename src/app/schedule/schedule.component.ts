@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import * as moment from 'moment';
+
 import { EventService } from '../shared_services/event.service';
 import { Event, Activity } from '../shared_components/model';
 
@@ -120,18 +122,21 @@ export class ScheduleComponent implements OnInit {
     return Object.keys(this.schedule);
   }
 
-  getDate(dateString:string) : number {
-    return Date.parse(dateString);
+  getHour(dateString:string) : string {
+    let defaultTimeZone:string = '-05:00';
+    let defaultFormat:string = "YYYY-MM-DDTHH:mm"
+    let momentDate = moment.parseZone(dateString + defaultTimeZone);
+    return momentDate.format("HH:mm");
   }
 
-  getStartDateFromTimeHeader(timeHeader:string) {
+  getStartDateFromTimeHeader(timeHeader:string) : string {
     let timeParts:string[] = timeHeader.split(" - ");
-    return this.getDate(timeParts[0]);
+    return this.getHour(timeParts[0]);
   }
 
-  getEndDateFromTimeHeader(timeHeader:string) {
+  getEndDateFromTimeHeader(timeHeader:string) :string {
     let timeParts:string[] = timeHeader.split(" - ");
-    return this.getDate(timeParts[1]);
+    return this.getHour(timeParts[1]);
   }
 
   getLocationById(locationId:string) : string {
@@ -148,3 +153,4 @@ export class ScheduleComponent implements OnInit {
       && selectedEventName === this.selectedEvent.name ? 'optionSelected' : '';
   }
 }
+ 
