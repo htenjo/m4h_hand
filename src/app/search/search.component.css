@@ -10,10 +10,12 @@
 
 /*===============  schedule begin ============*/
 .act-list {
+	display: inline-block;
 	margin-top: 10px;
 }
 
 .act-items-list {
+	display: inline-block;
 	margin-bottom: 60px;
 }
 
