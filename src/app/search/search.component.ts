@@ -20,7 +20,7 @@ export class SearchComponent implements OnInit {
   constructor(private eventService:EventService) { }
 
   ngOnInit() {
-    this.eventService.listEvents().subscribe(
+    this.eventService.listLoadedEvents().subscribe(
       list => {
         this.events = list;
 

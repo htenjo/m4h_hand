@@ -11,10 +11,11 @@ export class LocationComponent implements OnInit {
   events:Event[];
   selectedEvent:Event;
   selectedLocations:Location[];
+
   constructor(private eventService:EventService) { }
 
   ngOnInit() {
-    this.eventService.listEvents().subscribe(
+    this.eventService.listLoadedEvents().subscribe(
       list => {
         this.events = list;
         this.onSelectEvent("Asocimano");

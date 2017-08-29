@@ -24,7 +24,7 @@ export class ScheduleComponent implements OnInit {
    * 
    */
   ngOnInit() {
-    this.eventService.listEvents().subscribe(
+    this.eventService.listLoadedEvents().subscribe(
       list => {
         this.events = list;
         this.onSelectEvent("Asocimano");
