@@ -29,7 +29,7 @@ import { EventService } from './shared_services/event.service';
   imports: [
     BrowserModule,
     HttpModule,
-    RouterModule.forRoot(ROUTES)
+    RouterModule.forRoot(ROUTES, { useHash: true })
   ],
   providers: [
     EventService
